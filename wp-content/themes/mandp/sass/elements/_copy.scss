@@ -7,9 +7,10 @@ p {
 
 a {
   color: $green;
-  &:hover {
+  &:hover, &:focus, &:active{
     color: darken($green, 10);
     text-decoration: underline;
+    outline: 0;
   }
 }
 

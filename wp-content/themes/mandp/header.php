@@ -25,7 +25,7 @@
 
 <header class="site-header" role="banner">
 	<div class="title">
-		<h3><a href="/">Peter Binkowski &amp; Melody Nelson</a></h1>
+		<h3><a href="/">Peter Binkowski <span class="amp">&amp;</span> Melody Nelson</a></h1>
 	</div>
 	<div class="row">
 		<div class="the-date">

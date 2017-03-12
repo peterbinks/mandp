@@ -6,30 +6,38 @@ header {
 }
 
 main {
-    flex: 3 0 0;
+    flex: 4 0 0;
     padding-left: .937rem;
     padding-right: .937rem;
 }
 
 .content {
-    margin: 16rem 0 0 0;
+    margin: 9rem auto 0;
+    width: 100%;
+    display: block;
 }
 
 .wrapper {
-    margin: 3rem auto;
+    margin: 3rem auto 1rem auto;
     max-width: 75rem;
     display: flex;
     flex-flow: row wrap;
+    padding: 5rem 3rem;
+    background: #eee;
 }
 
 .home_hero {
-    margin-right: -12rem;
+    margin-right: -10rem;
+    margin-top: -15rem;
     transition: all .125s ease;
-    background-image: url('./images/home_hero.jpg');
-    background-size: cover;
+    background-image: url('./images/home_hero_3.jpg');
+    background-size: contain;
     background-repeat: no-repeat;
-    min-height: 65vh;
+    min-height: 100vh;
     background-position: center center;
+    &:hover {
+
+    }
 }
 
 @include breakpoint(small only) {

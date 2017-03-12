@@ -13,9 +13,9 @@
 
 <footer class="site-footer" role="contentinfo">
 	<div class="site-info">
-	</div><!-- .site-info -->
-</footer><!-- #colophon -->
-</div> <!-- .wrapper -->
+	</div>
+</footer>
+</div>
 <?php wp_footer(); ?>
 </body>
 </html>

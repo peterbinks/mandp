@@ -10,6 +10,8 @@
 get_header(); ?>
 
 <main>
+    <div class="home_hero">
+    </div>
     <div class="row">
     </div>
 </main>

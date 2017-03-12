@@ -5,3 +5,37 @@
     padding: 1.5rem 0;
   }
 }
+
+nav.main-nav {
+    width: 100%;
+    > div ul {
+        list-style: none;
+        li {
+            display: block;
+            float: left;
+            width: 100%;
+            a {
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                font-weight: 700;
+            }
+        }
+    }
+}
+
+.title {
+    margin-right: -32rem;
+    z-index: 100;
+    position: relative;
+    h3 {
+        font-size: 6rem;
+        text-shadow: 1px 5px 15px rgba(255,255,255,0.125);
+        a {
+            transition: text-shadow .25s ease;
+            &:hover {
+                text-decoration: none;
+                text-shadow: 1px 5px 15px rgba(0,0,0,0.125);
+            }
+        }
+    }
+}

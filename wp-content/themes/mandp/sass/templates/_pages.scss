@@ -1,10 +1,18 @@
 //Generic styles for hardcoded pages that are acting like templates
 header {
     flex: 1 0 0;
+    padding-left: .937rem;
+    padding-right: .937rem;
 }
 
 main {
     flex: 3 0 0;
+    padding-left: .937rem;
+    padding-right: .937rem;
+}
+
+.content {
+    margin: 16rem 0 0 0;
 }
 
 .wrapper {
@@ -14,6 +22,19 @@ main {
     flex-flow: row wrap;
 }
 
+.home_hero {
+    margin-right: -12rem;
+    transition: all .125s ease;
+    background-image: url('./images/home_hero.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 65vh;
+    transition: background-size 2s ease-in;
+    background-position: center center;
+    &:hover {
+        background-size: 110%;
+    }
+}
 
 @include breakpoint(small only) {
     header {

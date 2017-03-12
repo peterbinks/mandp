@@ -15,6 +15,25 @@ get_header(); ?>
     <div class="row">
     </div>
 </main>
-
+<!--
+<div id="countdown">
+  <div>
+    <div id="days"></div>
+    <span>days</span>
+  </div>
+  <div>
+    <div id="hrs"></div>
+    <span>hrs</span>
+  </div>
+  <div>
+    <div id="mins"></div>
+    <span>mins</span>
+  </div>
+  <div>
+    <div id="sec"></div>
+    <span>sec</span>
+  </div>
+</div>
+-->
 <?php
 get_footer();

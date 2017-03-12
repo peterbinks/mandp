@@ -15,6 +15,7 @@
 	<div class="site-info">
 	</div><!-- .site-info -->
 </footer><!-- #colophon -->
+</div> <!-- .wrapper -->
 <?php wp_footer(); ?>
 </body>
 </html>

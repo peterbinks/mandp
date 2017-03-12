@@ -21,9 +21,12 @@
 </head>
 
 <body <?php body_class(); ?>>
-
+<div class="wrapper">
 <header class="site-header" role="banner">
 	<div class="row">
+		<div class="title">
+			<h1><a href="/">Peter Binkowski &amp; Melody Nelson</a></h1>
+		</div>
 		<nav class="main-navigation" role="navigation">
 			<?php wp_nav_menu( array( 'theme_location' => 'menu-1', 'menu_id' => 'primary-menu' ) ); ?>
 		</nav><!-- #site-navigation -->

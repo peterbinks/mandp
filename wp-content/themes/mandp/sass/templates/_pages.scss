@@ -1,43 +1,26 @@
 //Generic styles for hardcoded pages that are acting like templates
-.body {
-  margin: 2rem 0;
-  @include breakpoint(large) {
-    margin: 3rem 0;
-  }
-  .section-title {
-    color: $light-blue;
-    text-transform: none;
-    &:after {
-      content: "";
-      display: block;
-      height: 5px;
-      width: 6rem;
-      background-color: $green;
-    }
-  }
+header {
+    flex: 1 0 0;
+}
 
-  .inner-photo {
-    margin-bottom: 1.5rem;
-    min-width: 100%;
-  }
-  .bottom-content {
-    justify-content: center;
-  }
+main {
+    flex: 3 0 0;
 }
 
 .wrapper {
-  display: flex;
-  flex-flow: row wrap;
+    margin: 3rem auto;
+    max-width: 75rem;
+    display: flex;
+    flex-flow: row wrap;
 }
 
-.main {
-  flex: 1 0 100%;
-  padding-left: 8.333333333%;
-  padding-right: 8.333333333%;
-  padding-bottom: 2rem;
-  @include breakpoint(medium) {
-    padding-bottom: 1rem;
-    flex: 1 0 66.6667%;
-    padding-left: calc(((100% - 75rem) / 2) + .9375rem);
-  }
+
+@include breakpoint(small only) {
+    header {
+        flex: 0 0 100%;
+    }
+
+    main {
+        flex: 0 0 100%;
+    }
 }

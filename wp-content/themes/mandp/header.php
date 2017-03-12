@@ -17,7 +17,6 @@
 <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Vesper+Libre" rel="stylesheet">
 <link rel="profile" href="http://gmpg.org/xfn/11">
-
 <?php wp_head(); ?>
 </head>
 

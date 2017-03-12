@@ -29,11 +29,7 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 65vh;
-    transition: background-size 2s ease-in;
     background-position: center center;
-    &:hover {
-        background-size: 110%;
-    }
 }
 
 @include breakpoint(small only) {

@@ -46,7 +46,7 @@ gulp.task('styles', function() {
 gulp.task('serve', function() {
 
   browserSync.init({
-    proxy: "localhost:9000",
+    proxy: "localhost:8000",
   });
 
   gulp.watch(wpPath + 'sass/**/*.scss',  gulp.series('styles')).on('change', browserSync.reload);

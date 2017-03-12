@@ -10,7 +10,6 @@
  */
 
 ?>
-</main><!-- #content -->
 
 <footer class="site-footer" role="contentinfo">
 	<div class="site-info">

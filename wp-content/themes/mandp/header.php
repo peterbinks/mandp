@@ -21,10 +21,11 @@
 </head>
 
 <body <?php body_class(); ?>>
-	<header class="site-header" role="banner">
-		<nav class="main-navigation" role="navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'mandp' ); ?></button>
-			<?php wp_nav_menu( array( 'theme_location' => 'menu-1', 'menu_id' => 'primary-menu' ) ); ?>
-		</nav><!-- #site-navigation -->
-	</header><!-- #masthead -->
-<main>
+
+<header class="site-header" role="banner">
+<div class="row">
+	<nav class="main-navigation" role="navigation">
+		<?php wp_nav_menu( array( 'theme_location' => 'menu-1', 'menu_id' => 'primary-menu' ) ); ?>
+	</nav><!-- #site-navigation -->
+</div>
+</header><!-- #masthead -->

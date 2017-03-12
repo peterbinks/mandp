@@ -6,9 +6,9 @@ p {
 }
 
 a {
-  color: $light-blue;
+  color: $green;
   &:hover {
-    color: darken($light-blue, 10);
+    color: darken($green, 10);
     text-decoration: underline;
   }
 }

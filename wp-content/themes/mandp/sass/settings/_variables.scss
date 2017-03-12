@@ -11,11 +11,11 @@ $white: #ffffff;
 
 //Color backgrounds
 $color__background-body: $white;
-$color__background-screen: $navy-blue;
+$color__background-screen: $green;
 $color__background-hr: #ccc;
-$color__background-header: $navy-blue-dk;
-$color__background-footer: $navy-blue;
-$color__background-button: $light-blue;
+$color__background-header: $green;
+$color__background-footer: $green;
+$color__background-button: $green;
 $color__background-pre: #eee;
 $color__background-ins: #fff9c0;
 
@@ -23,9 +23,9 @@ $color__background-ins: #fff9c0;
 $color__text-screen: $charcoal;
 $color__text-input: #666;
 $color__text-input-focus: #111;
-$color__link: $light-blue;
-$color__link-visited: darken($light-blue, 10);
-$color__link-hover: darken($light-blue, 10);
+$color__link: $green;
+$color__link-visited: darken($green, 10);
+$color__link-hover: darken($green, 10);
 $color__text-main: $charcoal;
 
 //Color border

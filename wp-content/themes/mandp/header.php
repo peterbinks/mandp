@@ -23,9 +23,9 @@
 <body <?php body_class(); ?>>
 
 <header class="site-header" role="banner">
-<div class="row">
-	<nav class="main-navigation" role="navigation">
-		<?php wp_nav_menu( array( 'theme_location' => 'menu-1', 'menu_id' => 'primary-menu' ) ); ?>
-	</nav><!-- #site-navigation -->
-</div>
+	<div class="row">
+		<nav class="main-navigation" role="navigation">
+			<?php wp_nav_menu( array( 'theme_location' => 'menu-1', 'menu_id' => 'primary-menu' ) ); ?>
+		</nav><!-- #site-navigation -->
+	</div>
 </header><!-- #masthead -->

@@ -1,0 +1,25 @@
+article {
+    padding: 0 2rem;
+}
+
+.invite-copy {
+    margin: 3rem 0;
+    padding:;
+    text-align: left;
+    & h2 > div {
+    display: inline;
+    }
+}
+
+#days {
+    color: $green;
+}
+#hrs {
+    color: $green;
+}
+#mins {
+    color: $green;
+}
+#sec {
+    color: $green;
+}

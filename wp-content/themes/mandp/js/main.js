@@ -35,10 +35,10 @@
             var minutes = Math.floor((distance % _hour) / _minute);
             var seconds = Math.floor((distance % _minute) / _second);
 
-          document.getElementById('days').innerHTML = days;
-          document.getElementById('hrs').innerHTML = hours;
-          document.getElementById('mins').innerHTML = minutes;
-          document.getElementById('sec').innerHTML = seconds;
+          document.getElementById('days').innerHTML = days + ' days';
+          document.getElementById('hrs').innerHTML = hours + ' hours';
+          document.getElementById('mins').innerHTML = minutes + ' minutes';
+          document.getElementById('sec').innerHTML = seconds + ' seconds';
         }
 
         timer = setInterval(showRemaining, 1000);

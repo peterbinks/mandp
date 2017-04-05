@@ -16,16 +16,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Vesper+Libre" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
 <div class="wrapper">
-
 <header class="site-header" role="banner">
 	<div class="title">
-		<h3><a href="/">Peter Binkowski <span class="amp">&amp;</span> Melody Nelson</a></h1>
+		<h3><a href="/">P.B<br><span class="amp">&amp;</span> M.N</a></h1>
 	</div>
 	<div class="row">
 		<div class="the-date">

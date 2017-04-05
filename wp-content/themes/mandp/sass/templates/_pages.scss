@@ -23,6 +23,8 @@ main {
     display: flex;
     flex-flow: row wrap;
     padding: 5rem 3rem;
+    z-index: 300;
+    position: relative;
     background: #eee;
 }
 
@@ -38,6 +40,15 @@ main {
     &:hover {
 
     }
+}
+
+.botanical {
+    position: absolute;
+    top: -10%;
+    left:-30%;
+    z-index: 200;
+    width: 100vw;
+    height: 100vh
 }
 #countdown{
     font-weight: 900;
@@ -83,5 +94,24 @@ main {
 
     main {
         flex: 0 0 100%;
+    }
+    .wrapper {
+        margin: 0 auto 0 auto;
+        max-width: 75rem;
+        display: flex;
+        flex-flow: row wrap;
+        padding: 0 1rem;
+    }
+    .home_hero {
+        margin-right: 0;
+        margin-top: 0;
+        min-height: 35rem;
+    }
+    .title {
+        margin-top: 0;
+        margin-right: 0;
+    }
+    .content {
+        margin: 2rem 0;
     }
 }
